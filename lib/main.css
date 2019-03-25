@@ -54,6 +54,10 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
+  #meta {
+    width: 100%;
+    max-width: 600px;
+  }
   #message {
     grid-column-end: 2;
     grid-column-start: 1;
@@ -74,7 +78,7 @@ body {
     grid-column-end: 2;
     grid-column-start: 1;
     grid-row-end: 3;
-    grid-row-start: 4;
+    grid-row-start: 2;
     max-width: 600px;
     width: 100%;
   }
